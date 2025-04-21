@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import about from "/images/about.webp";
+import data from "../data/data.json"
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,17 +37,14 @@ const About = () => {
 
       <div className={`transition-all duration-700 w-full md:w-1/2 max-w-xl text-center md:text-left ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-          Ingin Info Lebih Cepat? Hubungi Kami Disini
+          {data.about.title}
         </h1>
         <p className="text-base sm:text-lg md:text-xl leading-relaxed">
-          Kami adalah tim profesional yang berdedikasi untuk memberikan pengalaman terbaik 
-          dalam memilih kendaraan Hyundai yang sesuai dengan kebutuhan Anda. <br /><br />
+          {data.about.about1} <br /><br />
 
-          Komitmen kami adalah memberikan layanan terbaik, mulai dari konsultasi hingga proses 
-          pembelian yang mudah dan nyaman. Bersama Hyundai, kami menghadirkan kenyamanan, 
-          performa, dan keamanan dalam setiap perjalanan Anda. <br /><br />
+          {data.about.about2}<br /><br />
 
-          Temukan mobil Hyundai impian Anda bersama kami!
+          {data.about.about3}
         </p>
       </div>
     </div>

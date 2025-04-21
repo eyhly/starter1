@@ -36,7 +36,7 @@ const Product = () => {
         {data.products.map((product, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md p-6 w-150 hover:shadow-xl transition-all duration-300"
+            className="bg-white rounded-xl shadow-md p-6 w-100 hover:shadow-xl transition-all duration-300"
           >
             <img src={product.image} alt={product.title} className="w-full h-auto mb-4 mt-4" />
             <h3 className="text-3xl font-bold mb-4 mt-4">{product.title}</h3>

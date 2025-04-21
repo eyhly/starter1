@@ -14,6 +14,13 @@
         "title": "New Daihatsu Jatim",
         "desc": "Clone Website Pusat Informasi Pembelian, Promo, Harga dan Spesifikasi Mobil Daihatsu di Jawa Timur."
     },
+    "about":
+    {
+        "title": "Ingin Info Lebih Cepat? Hubungi Kami Disini",
+        "about1": "Kami adalah tim profesional yang berdedikasi untuk memberikan pengalaman terbaik dalam memilih kendaraan Hyundai yang sesuai dengan kebutuhan Anda.",
+        "about2": "Komitmen kami adalah memberikan layanan terbaik, mulai dari konsultasi hingga proses pembelian yang mudah dan nyaman. Bersama Hyundai, kami menghadirkan kenyamanan, performa, dan keamanan dalam setiap perjalanan Anda.",
+        "about3": "Temukan mobil Hyundai impian Anda bersama kami!"
+    },
     "products": [
         {
             "image": "/starter1/images/n-sirion.webp", 

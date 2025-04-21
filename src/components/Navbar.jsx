@@ -23,12 +23,10 @@ const Navbar = () => {
     <nav className={`flex justify-between items-center fixed z-10 px-4 md:px-10 py-5 w-full transition-all duration-300 ${scrolled ? 'bg-blue-200 shadow-md' : 'bg-transparent'}`}>
       <img src={data.navbar.logo} width='25%' />
 
-      {/* Hamburger icon - visible only on small screens */}
       <button 
         className="md:hidden block text-black focus:outline-none button-nav"
         onClick={toggleMenu}
       >
-        {/* Hamburger icon (3 bars) */}
         <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>

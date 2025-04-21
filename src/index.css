@@ -43,10 +43,16 @@
 }
 
 .button-nav{
-  background-color: #dee2e48e;
-  border-radius: 20px 1px 20px 1px;
+  background-color: transparent;
   padding: 10px, 5px, 10px, 5px;
   color: #1e40af;
+}
+
+.button-prev-next{
+  background-color: #40768C;
+  border-radius: 20px 1px 20px 1px;
+  padding: 10px, 5px, 10px, 5px;
+  color: #fff;
 }
 
 :root {
