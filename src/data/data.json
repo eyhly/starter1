@@ -1,0 +1,87 @@
+{
+    "navbar":
+    {
+        "logo": "/starter1/images/logo.webp",
+        "menu": [
+            { "label": "Home", "link": "#home" },
+            { "label": "About", "link": "#about" },
+            { "label": "Product", "link": "#product" },
+            { "label": "Review", "link": "#review" }
+        ]
+    },
+    "home":
+    {
+        "title": "New Daihatsu Jatim",
+        "desc": "Clone Website Pusat Informasi Pembelian, Promo, Harga dan Spesifikasi Mobil Daihatsu di Jawa Timur."
+    },
+    "products": [
+        {
+            "image": "/starter1/images/n-sirion.webp", 
+            "title": "New Sirion",
+            "price": "💸 Start from 500.000.000 IDR",
+            "description": "Get your special offer!"
+        },
+        {
+            "image": "/starter1/images/n-sirion.webp", 
+            "title": "New Sigra",
+            "price": "💸 Start from 500.000.000 IDR",
+            "description": "Get your special offer!"
+        },
+        {
+            "image": "/starter1/images/n-sirion.webp", 
+            "title": "New Civic",
+            "price": "💸 Start from 500.000.000 IDR",
+            "description": "Get your special offer!"
+        }
+    ],
+    "sections" : [
+      { "id": "home", "component": "Hero" },
+      { "id": "about", "component": "About" },
+      { "id": "product", "component": "Product" },
+      { "id": "review", "component": "Review" }
+     ],
+     "reviews" : [
+        {
+            "name": "John Doe",
+            "review": "Mobil ini sangat nyaman dan irit bahan bakar!",
+            "stars": "5",
+            "image": "/starter1/images/car1.webp",
+            "profile": "/starter1/images/profile1.webp"
+        },
+        {
+            "name": "Jane Smith",
+            "review": "Performa sangat bagus, cocok untuk perjalanan jauh.",
+            "stars": "4",
+            "image": "/starter1/images/car2.webp",
+            "profile": "/starter1/images/profile2.webp"
+        },
+        {
+            "name": "John Doe",
+            "review": "Mobil ini sangat nyaman dan irit bahan bakar!",
+            "stars": "5",
+            "image": "/starter1/images/car1.webp",
+            "profile": "/starter1/images/profile1.webp"
+        },
+        {
+            "name": "Jane Smith",
+            "review": "Performa sangat bagus, cocok untuk perjalanan jauh.",
+            "stars": "4",
+            "image": "/starter1/images/car2.webp",
+            "profile": "/starter1/images/profile2.webp"
+        },
+        {
+            "name": "John Doe",
+            "review": "Mobil ini sangat nyaman dan irit bahan bakar!",
+            "stars": "5",
+            "image": "/starter1/images/car1.webp",
+            "profile": "/starter1/images/profile1.webp"
+        },
+        {
+            "name": "Jane Smith",
+            "review": "Performa sangat bagus, cocok untuk perjalanan jauh.",
+            "stars": "4",
+            "image": "/starter1/images/car2.webp",
+            "profile": "/starter1/images/profile2.webp"
+        }
+     ]
+}
