@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className='bg-white'>
+    <div className="w-full max-w-screen overflow-hidden">
       <Navbar/>
       {data.sections.map((section) => {
         const SectionComponent = componentsMap[section.component];

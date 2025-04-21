@@ -27,8 +27,8 @@ const Hero = () => {
   }, []);
 
   return (
-  <div className="w-full hero h-screen bg-cover bg-center" style={{backgroundImage: `url(${background})`}}>
-  <div className="w-full h-full flex items-center pl-10">
+  <div className="w-full h-screen bg-cover bg-center" style={{backgroundImage: `url(${background})`}}>
+  <div className="w-full h-full flex items-center px-4 md:px-10">
     <div 
     ref={contentRef}
     className={`hero-card text-white p-6 py-30 rounded-md max-w-1/2 transform transition-all duration-700 ${
