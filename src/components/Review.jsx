@@ -59,10 +59,10 @@ const Review = () => {
       <div className="flex flex-col md:flex-row items-start justify-center gap-15 w-full">
         <div
           className={`transition-all duration-700 ${
-            isVisible ? 'opacity-100 md:translate-x-20' : 'opacity-0 translate-x-0'
-          } max-w-3xl text-center md:text-left`}
+            isVisible ? 'opacity-100 md:translate-x-10' : 'opacity-0 translate-x-0'
+          } max-w-md text-center md:text-left`}
         >
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">What People Say About Us?</h2>
+          <h2 className="text-3xl  sm:text-4xl font-bold mb-4">What People Say About Us?</h2>
           <p className="mb-20 text-lg sm:text-2xl text-gray-600">
             Our customers love us. Here's what they say!
           </p>
